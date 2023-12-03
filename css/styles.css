@@ -1,0 +1,190 @@
+   
+   /* Accent color: #4D5AE5 
+    Main color: #434455 slat
+    Second color: #2E2F42 navy blue 
+   */
+
+   /* Fonts::
+   Main ff: font-family: Roboto 400 500 700 (fs normal all)
+   Second ff: font-family: Raleway 700  (fs normal all)
+   */
+
+   
+
+   :root {
+    --iris-color: #4D5AE5;
+    --ocean:#404BBF;
+    --navy-blue-color: #2E2F42;
+    --slat-color: #434455;
+    --cloud-color: #F4F4FD;    
+         }
+   
+          
+            
+    body {
+        color: #434455;
+        background-color: #FFFFFF;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;   
+        letter-spacing: 0.02em;                     
+         }   
+
+    a {
+        text-decoration: none;
+        color: var(--slat-color);
+      }
+
+    ul {
+        list-style-type: none;
+       }
+
+
+
+/* Header */
+
+/* ====================================== LOGO ============================================ */
+
+.logo {
+    color: var(--iris-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+      }
+
+.logo:focus,
+.logo:hover {
+    color: var(--ocean);
+}
+
+.logo-studio {
+    color: var(--navy-blue-color);
+}
+
+/* ====================================== SITE-NAV ============================================ */
+
+.site-nav .link {
+    color: var(--navy-blue-color);
+    
+    font-weight: 500;
+    
+}
+
+.site-nav .link:focus,
+.site-nav .link:hover {
+    color: var(--ocean);
+}
+
+.adress .link,
+.adress {
+    color: var(--slat-color);
+    
+    font-style: normal;
+    
+}
+
+.adress .link:focus,
+.adress .link:hover {
+    color: var(--ocean);
+}
+
+/* ====================================== SECTION HERO ============================================ */
+
+.hero {
+    background-color: var(--navy-blue-color);
+}
+
+.hero-title {
+    color:white;
+    
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/* ====================================== BUTTON ============================================ */
+
+.button {
+    color: white;
+    background-color: var(--iris-color);
+
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    
+    cursor: pointer;
+    
+}
+
+.button:focus,
+.button:hover {
+    background-color: var(--ocean);
+    }
+
+/* ====================================== SECTION 1 (OUR VALUE)============================================*/
+
+.section-title {
+    color: var(--navy-blue-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.section-list .section-topic {
+    color: var(--navy-blue-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+}
+
+.section-list,
+.section-text {    
+     font-size: 16px;
+    }
+
+
+/* ====================================== SECTION 2 (OUR TEAM)============================================ */
+
+.section-team {
+    background-color: var(--cloud-color);
+    }
+
+.section-card {
+    background-color: #ffffff;
+    }
+
+/* ====================================== SECTION 3 (PORTFOLIO)============================================*/
+
+
+
+
+
+/* ====================================== FOOTER ============================================*/
+
+.footer {
+    background-color: var(--navy-blue-color);
+    }
+
+.text-studio,
+.footer-text {
+    color: var(--cloud-color);
+    }
+
+.footer-studio {
+    color: var(--cloud-color)
+}
+
