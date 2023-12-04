@@ -7,14 +7,14 @@
     --cloud-color: #F4F4FD;    
     }
 
-    /* .contanier {
-        width: 1152px; 
-        padding-left: 12px;
-        padding-right: 12px;
+    .contanier {
+        width: 1158px; 
+        padding-left: 15px;
+        padding-right: 15px;
         
-    }      */
+    }     
     
-    /* 1128+(12+12)=1152 or 1440-(156+156)=1128 and 1128+(12+12)=1152 */
+    
     
 
     
@@ -34,18 +34,21 @@
         color: var(--slat-color);
     }
 
-    ul {
+    ul, ol {
         list-style-type: none;
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
         padding-left: 0;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     p {
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     img {
@@ -53,13 +56,11 @@
     }
 
 
-
-
-
 /* ====================================== HEADER ==================================================================== */
 
+
 .header {
-    padding: 24px 12px;
+    
 
 }
 
@@ -76,8 +77,8 @@
     text-transform: uppercase;
     letter-spacing: 0.03em;
 
-    display:inline-block;
-    padding: 25,5px 12px;   
+    /* display:inline-block; */
+    /* padding: 25.5px 0;  */
       
 
     outline: 5px dotted tomato;
@@ -91,17 +92,19 @@
 
 .logo-studio {
     color: var(--navy-blue-color);
+    padding: 25.5px 0;
+    
 }
 
 /* ====================================== NAV ============================================ */
 
+
 .nav {
-    
-     
+    padding: 24px 0px;
 
 
     outline: 5px dotted coral;
-    
+    /* background-color: maroon; */    
     
 }   
 
@@ -120,13 +123,16 @@
 
 /* ====================================== ADDRESS ============================================ */
 
+
 .address {
 
-    /* margin-bottom: 24px;
-    padding-left: 12px; */
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+    padding: 24px 0px;
 
 
     outline: 5px dotted coral;
+    /* background-color: maroon; */
 }
 
 .address .link,
@@ -144,8 +150,10 @@
 
 /* ====================================== SECTION HERO ============================================ */
 
+
 .hero {
     background-color: var(--navy-blue-color);
+    
 }
 
 .hero-title {
@@ -156,9 +164,15 @@
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+
+    margin-bottom: 48px;
+
+    outline: 5px dotted coral;
+    /* background-color: maroon; */
 }
 
 /* ====================================== BUTTON ============================================ */
+
 
 .button {
     color: white;
@@ -171,16 +185,31 @@
     letter-spacing: 0.04em;
     
     cursor: pointer;
+
+    padding: 16px 32px;
+
+
+     
+    
+
+    /* min-width: ; */
+        outline: 5px dotted coral;
+            /* background-color: maroon; */
     
 }
 
 .button:focus,
 .button:hover {
     background-color: var(--ocean);
-    }
+}
 
 /* ====================================== SECTION 1 (OUR VALUE)============================================*/
 
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
 .section-title {
     color: var(--navy-blue-color);
     font-size: 36px;
@@ -205,10 +234,10 @@
      font-size: 16px;
 }
 
-
 /* ====================================== SECTION 2 (OUR TEAM)============================================ */
 
-.section-team {
+
+.team {
     background-color: var(--cloud-color);
 }
 
@@ -223,6 +252,7 @@
 
 
 /* ====================================== FOOTER ============================================*/
+
 
 .footer {
     background-color: var(--navy-blue-color);
