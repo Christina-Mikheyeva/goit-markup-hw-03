@@ -53,7 +53,10 @@
 /* ====================================== HEADER ===================================================*/
 
 
-
+.header .container {
+    display: flex;
+    align-items: center;
+}
 
 /* ====================================== LOGO ==================================================== */
 
@@ -65,10 +68,7 @@
     font-weight: 700;
     line-height: 1.17;
     text-transform: uppercase;
-    letter-spacing: 0.03em;
-      
-
-    outline: 5px dotted tomato;
+    letter-spacing: 0.03em;      
 }
 
 .logo:focus,
@@ -87,16 +87,14 @@
 
 
 .nav {
+    display: flex;
+    gap: 76px;
     padding: 24px 0px;
-
-
-    outline: 5px dotted coral;
-    /* background-color: maroon; */    
 }   
 
 .nav-list {
     display: flex;
-    gap: 40px;
+    gap: 40px;    
 }
 
 .nav-list .link {
@@ -113,12 +111,9 @@
 
 
 .address {
+    margin-left: auto;
     padding-top: 24px;
     padding-bottom: 24px;
-    
-
-    outline: 5px dotted coral;
-    /* background-color: maroon; */
 }
 
 .address .link,
@@ -133,12 +128,10 @@
     color: var(--ocean);
 }
 
-/* .address-list {
+.address-list {
     display: flex;
     gap: 40px;
-    justify-content: flex-end;
-    align-items: baseline;
-} */
+}
 
 /* ====================================== SECTION HERO ================================================ */
 
@@ -170,10 +163,6 @@
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-
-  
-    outline: 5px dotted coral;
-    /* background-color: maroon; */
 }
 
 /* ====================================== BUTTON ======================================================== */
@@ -192,11 +181,6 @@
     letter-spacing: 0.04em;
     
     cursor: pointer;  
-    
-
-    /* min-width: ; */
-    outline: 5px dotted coral;
-    /* background-color: maroon; */  
 }
 
 .button:focus,
@@ -221,10 +205,6 @@
     text-transform: capitalize;
     text-align: center;
     letter-spacing: 0.02em;
-
-    
-    outline: 5px dotted coral;
-    /* background-color: maroon; */
 }
 
 .section-list .section-topic {
@@ -235,10 +215,6 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
-    
-    outline: 5px dotted coral;
-    /* background-color: maroon; */
 }
 
 .section-list,
@@ -246,12 +222,8 @@
     font-size: 16px;
 }
 
-
 .section-text {
     margin-bottom: 32px;
-
-    outline: 5px dotted coral;
-    /* background-color: maroon; */
 }
 
 /* ====================================== SECTION 2 (OUR TEAM)=========================================== */
@@ -293,10 +265,6 @@ margin-bottom: 32px;
     margin-bottom: 17.5px;
 
     color: var(--cloud-color);
-
-
-    /* outline: 5px dotted coral; */
-    /* background-color: maroon; */
 }
 
 .footer-text {
