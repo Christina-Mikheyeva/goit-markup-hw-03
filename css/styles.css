@@ -1,24 +1,18 @@
    
    :root {
-    --iris-color: #4D5AE5;
-    --ocean:#404BBF;
-    --navy-blue-color: #2E2F42;
-    --slat-color: #434455;
-    --cloud-color: #F4F4FD;    
+        --iris-color: #4D5AE5;
+        --ocean:#404BBF;
+        --navy-blue-color: #2E2F42;
+        --slat-color: #434455;
+        --cloud-color: #F4F4FD;  
     }
-
-    .contanier {
+    
+    .container {
         width: 1158px; 
         padding-left: 15px;
         padding-right: 15px;
-        
-    }     
-    
-    
-    
-
-    
-                         
+    } 
+                               
     body {
         color: #434455;
         background-color: #FFFFFF;
@@ -56,32 +50,25 @@
     }
 
 
-/* ====================================== HEADER ==================================================================== */
+/* ====================================== HEADER ===================================================*/
 
 
-.header {
-    
 
-}
 
-/* ====================================== LOGO ====================================================================== */
+/* ====================================== LOGO ==================================================== */
 
 
 .logo {
     color: var(--iris-color);
-
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-
-
       
 
     outline: 5px dotted tomato;
-    
 }
 
 .logo:focus,
@@ -90,12 +77,13 @@
 }
 
 .logo-studio {
-    color: var(--navy-blue-color);
-    padding: 25.5px 0;
-    
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+
+    color: var(--navy-blue-color); 
 }
 
-/* ====================================== NAV ============================================ */
+/* ====================================== NAV ======================================================= */
 
 
 .nav {
@@ -104,17 +92,16 @@
 
     outline: 5px dotted coral;
     /* background-color: maroon; */    
-    
 }   
 
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
 
 .nav-list .link {
     color: var(--navy-blue-color);
-    
-    font-weight: 500;
-
-    
-    
+    font-weight: 500; 
 }
 
 .nav-list .link:focus,
@@ -122,15 +109,13 @@
     color: var(--ocean);
 }
 
-/* ====================================== ADDRESS ============================================ */
+/* ====================================== ADDRESS ==================================================== */
 
 
 .address {
-
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
-    padding: 24px 0px;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 
     outline: 5px dotted coral;
     /* background-color: maroon; */
@@ -139,17 +124,23 @@
 .address .link,
 .address {
     color: var(--slat-color);
-    
-    font-style: normal;
-    
+    font-style: normal;  
 }
+
 
 .address .link:focus,
 .address .link:hover {
     color: var(--ocean);
 }
 
-/* ====================================== SECTION HERO ============================================ */
+/* .address-list {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: baseline;
+} */
+
+/* ====================================== SECTION HERO ================================================ */
 
 
 .hero {
@@ -158,54 +149,54 @@
 }
 
 .hero-title {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    width: 496px;
+
+    /* padding-top: 188px;
+    padding-right: 472px;
+    padding-left: 472px;
+    padding-bottom: 292px;
+    margin-bottom: 48px;
+    width: 496px; */
+
+
     color:white;
-    
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 
-    width: 496px;
-    margin-bottom: 48px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 188px;
-    padding-bottom: 292px;
-
-    
-
+  
     outline: 5px dotted coral;
     /* background-color: maroon; */
 }
 
-/* ====================================== BUTTON ============================================ */
+/* ====================================== BUTTON ======================================================== */
 
 
 .button {
+    padding: 16px 32px;
+    margin-bottom: 188px;
+
     color: white;
     background-color: var(--iris-color);
-
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     
-    cursor: pointer;
-
-    padding: 16px 32px;
-    margin-bottom: 188px;
- 
-
-
-     
+    cursor: pointer;  
     
 
     /* min-width: ; */
-        outline: 5px dotted coral;
-            /* background-color: maroon; */
-    
+    outline: 5px dotted coral;
+    /* background-color: maroon; */  
 }
 
 .button:focus,
@@ -217,11 +208,12 @@
 
 .section {
     padding-top: 120px;
-    padding-bottom: 120px;
-
-    
+    padding-bottom: 120px;   
 }
+
 .section-title {
+    margin-bottom: 72px;
+
     color: var(--navy-blue-color);
     font-size: 36px;
     font-weight: 700;
@@ -230,33 +222,28 @@
     text-align: center;
     letter-spacing: 0.02em;
 
-    margin-bottom: 72px;
-
+    
     outline: 5px dotted coral;
     /* background-color: maroon; */
-
 }
 
 .section-list .section-topic {
+    margin-bottom: 8px;
+
     color: var(--navy-blue-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
-    margin-bottom: 8px;
-    
-    
     
     outline: 5px dotted coral;
     /* background-color: maroon; */
-    
 }
 
 .section-list,
 .section-text {    
     font-size: 16px;
-    
 }
 
 
@@ -267,7 +254,7 @@
     /* background-color: maroon; */
 }
 
-/* ====================================== SECTION 2 (OUR TEAM)============================================ */
+/* ====================================== SECTION 2 (OUR TEAM)=========================================== */
 
 
 .team {
@@ -276,7 +263,6 @@
 
 .section-card {
     background-color: #ffffff;
-    
 }
 
 .section-card > img {
@@ -289,7 +275,7 @@ margin-bottom: 32px;
 
 
 
-/* ====================================== FOOTER ============================================*/
+/* ====================================== FOOTER ==========================================================*/
 
 
 .footer {
@@ -302,19 +288,18 @@ margin-bottom: 32px;
 }
 
 .footer-studio {
-    color: var(--cloud-color);
-
     display: inline-block;
     padding-top: 101.5px;
     margin-bottom: 17.5px;
+
+    color: var(--cloud-color);
+
 
     /* outline: 5px dotted coral; */
     /* background-color: maroon; */
 }
 
 .footer-text {
+    padding-bottom: 100px; 
     width: 264px;
-   
-    padding-bottom: 100px; */
-    
 }
