@@ -264,6 +264,12 @@
 
 .team {
     background-color: var(--cloud-color);
+    text-align: center;
+}
+
+.team .section-card {
+    border-radius: 0px 0px 4px 4px;
+    
 }
 
 .section-card {
@@ -279,6 +285,14 @@ margin-bottom: 32px;
 
 .portfolio > .item {
 flex-basis: calc((100% - 2*24px) / 3);
+}
+
+.border {
+    border-right: 1px solid var(--cornflower);
+    border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 /* ====================================== FOOTER ==========================================================*/
