@@ -5,6 +5,7 @@
         --navy-blue-color: #2E2F42;
         --slat-color: #434455;
         --cloud-color: #F4F4FD;  
+        --cornflower: #E7E9FC;
     }
     
     .container {
@@ -50,14 +51,35 @@
     img {
         display: block;
     }
+    
+    button {
+        cursor: pointer;
+        background-color: transparent;
+    }
 
-
+    .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+     }
+    
 /* ====================================== HEADER ===================================================*/
 
+.header {
+    border-bottom: 1px solid var(--cornflower);
+}
 
 .header .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 /* ====================================== LOGO ==================================================== */
@@ -113,7 +135,6 @@
 
 
 .address {
-    margin-left: auto;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -152,15 +173,13 @@
     padding-bottom: 292px;
     width: 496px;
     
-
     /* padding-top: 188px;
     padding-right: 472px;
     padding-left: 472px;
     padding-bottom: 292px;
     margin-bottom: 48px;
     width: 496px; */
-
-
+    
     color:white;
     font-size: 56px;
     font-weight: 700;
@@ -188,7 +207,6 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    cursor: pointer;  
 }
 
 .button:focus,
@@ -230,8 +248,19 @@
     font-size: 16px;
 }
 
+.section-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
 .section-text {
     margin-bottom: 32px;
+}
+
+.item {    
+    flex-basis: calc((100% - 3*24px) / 4);
 }
 
 /* ====================================== SECTION 2 (OUR TEAM)=========================================== */
@@ -242,7 +271,7 @@
 }
 
 .section-card {
-    background-color: #ffffff;
+    background-color: #ffffff;    
 }
 
 .section-card > img {
@@ -252,8 +281,9 @@ margin-bottom: 32px;
 /* ====================================== SECTION 3 (PORTFOLIO)============================================*/
 
 
-
-
+.portfolio > .item {
+flex-basis: calc((100% - 2*24px) / 3);
+}
 
 /* ====================================== FOOTER ==========================================================*/
 
