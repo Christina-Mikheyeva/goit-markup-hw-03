@@ -92,7 +92,7 @@
     font-weight: 700;
     line-height: 1.17;
     text-transform: uppercase;
-    letter-spacing: 0.03em;      
+    letter-spacing: 0.03em;    
 }
 
 .logo:focus,
@@ -170,21 +170,13 @@
     margin-left: auto;
     margin-bottom: 48px;
     padding-top: 188px;
-    padding-bottom: 292px;
     width: 496px;
-    
-    /* padding-top: 188px;
-    padding-right: 472px;
-    padding-left: 472px;
-    padding-bottom: 292px;
-    margin-bottom: 48px;
-    width: 496px; */
-    
+      
     color:white;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;    
 }
 
 /* ====================================== BUTTON ======================================================== */
@@ -218,7 +210,7 @@
 
 .section {
     padding-top: 120px;
-    padding-bottom: 120px;   
+    padding-bottom: 120px;  
 }
 
 .section-title {
@@ -256,7 +248,11 @@
 }
 
 .section-text {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+}
+
+.padding-zero {
+    padding-bottom: 0;
 }
 
 .item {    
