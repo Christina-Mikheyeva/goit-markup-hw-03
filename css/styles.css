@@ -158,10 +158,7 @@
 
 .hero {
     background-color: var(--navy-blue-color);
-    text-align: center;    
-}
-
-.hero > .container {
+    text-align: center;  
     padding-top: 188px;
     padding-right: 0;
     padding-bottom: 188px;
